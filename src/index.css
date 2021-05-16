@@ -189,6 +189,7 @@ p {
 
 .project-container {
   margin: 20px 0;
+  cursor: pointer;
 }
 
 .project-container-link {
@@ -234,6 +235,74 @@ p {
   font-size: 0.9rem;
   padding: 0.5rem;
   border-radius: 2px;
+}
+
+/* project details */
+
+.modal-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.modal {
+  background-color: #dccece;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  /* padding: 30px 50px; */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.modal h2 {
+  margin: 0;
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.modal p {
+  font-size: 1.8rem;
+  line-height: normal;
+  padding: 10px;
+}
+
+.modal-img {
+  width: 100%;
+}
+
+.modal-close {
+  align-self: flex-end;
+  position: fixed;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 3.5rem;
+  color: var(--primary-three);
+  cursor: pointer;
+}
+
+.modal-links-container {
+  display: flex;
+  align-items: center;
+}
+
+.modal-links {
+  text-decoration: none;
+  color: var(--primary-three);
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .desktop-only {
