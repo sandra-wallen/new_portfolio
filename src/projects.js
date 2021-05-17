@@ -7,6 +7,7 @@ export const projectArray = [
       'HTML', 'CSS', 'React', 'Redux', 'REST API'
     ],
     url: 'https://github.com/sandra-wallen/project-todos',
+    site: 'https://sandras-todos.netlify.app/',
     className: 'project-seven', 
     id: 7
   },
@@ -18,6 +19,7 @@ export const projectArray = [
       'HTML', 'CSS', 'React'
     ],
     url: 'https://github.com/sandra-wallen/project-survey',
+    site: 'https://practical-williams-b581cf.netlify.app/',
     className: 'project-one', 
     id: 1
   },
@@ -29,6 +31,7 @@ export const projectArray = [
       'HTML', 'CSS', 'React'
     ],
     url: 'https://github.com/IsabellaM5/project-movies',
+    site: 'https://musing-noether-fb9258.netlify.app/',
     className: 'project-two',
     id: 2
   },
@@ -40,6 +43,7 @@ export const projectArray = [
       'HTML', 'CSS', 'React'
     ],
     url: 'https://github.com/sandra-wallen/project-happy-thoughts',
+    site: 'https://frosty-heyrovsky-0bfc89.netlify.app/',
     className: 'project-three',
     id: 3
   },
@@ -51,6 +55,7 @@ export const projectArray = [
       'HTML', 'CSS', 'React'
     ],
     url: 'https://github.com/sandra-wallen/project-music-releases',
+    site: 'https://affectionate-jennings-cbe093.netlify.app/',
     className: 'project-four',
     id: 4
   },
@@ -62,6 +67,7 @@ export const projectArray = [
       'HTML', 'CSS', 'JavaScript'
     ],
     url: 'https://github.com/sandra-wallen/project-guess-who',
+    site: 'https://pensive-lumiere-3458bf.netlify.app/',
     className: 'project-five',
     id: 5
   },
@@ -73,6 +79,7 @@ export const projectArray = [
       'HTML', 'CSS'
     ],
     url: 'https://github.com/sandra-wallen/project-news-site',
+    site: 'https://sharp-curie-b31822.netlify.app/',
     className: 'project-six',
     id: 6
   }

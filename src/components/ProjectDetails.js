@@ -21,7 +21,7 @@ const ProjectDetails = ({ project, setShowDetails }) => {
         </p>
         <div className="modal-links-container">
           <a href={project.url} className="modal-links" >GitHub repo</a>
-          <a href={project.url} className="modal-links" >Deployed site</a>
+          <a href={project.site} className="modal-links" >Deployed site</a>
         </div>
       </div>
     </div>
