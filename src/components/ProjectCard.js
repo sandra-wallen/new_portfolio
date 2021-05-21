@@ -14,7 +14,7 @@ const ProjectCard = ({ project }) => {
       <div 
         id="project-container" 
         className="project-container"
-        onClick={window.innerWidth >= 768 ? handleOnClick : window.open(project.site)}>
+        onClick={handleOnClick}>
         <img 
           className="project-img" 
           src={project.img} 
