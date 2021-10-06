@@ -1,5 +1,18 @@
 export const projectArray = [
   {
+    img: './pictures/final-project__copy.png',
+    projectTitle: 'ORGANIZING APP',
+    projectDescription: 'A fullstack application where the user can organize tasks within projects.',
+    longDescription: 'This application was built together with Isabella Markskog as the final project of the Technigo frontend bootcamp. Organizr is a fullstack application where a user can plan projects and have other people join in on a project as collaborators. In this application a user can plan projects and have other people join in on a project as collaborators. The general idea is to provide the user with the means to add, store and maintain projects and on a single project you can add tasks related to the project.',
+    lang: [
+      'HTML', 'CSS', 'React', 'Redux', 'Node.js'
+    ],
+    url: 'https://github.com/sandra-wallen/final-project',
+    site: 'https://organizr-final.netlify.app', 
+    className: '',
+    id: 8
+  },
+  {
     img: './pictures/project-todos-new.png',
     projectTitle: 'TODO APP',
     projectDescription: 'A todo application built with React, Redux, REST API and Styled components.',
@@ -26,6 +39,19 @@ export const projectArray = [
     id: 1
   },
   {
+    img: './pictures/happy-thoughts__new.png',
+    projectTitle: 'HAPPY THOUGHTS',
+    projectDescription: 'A twitter-ish project built in React. Getting and posting happy thoughts.',
+    longDescription: 'The frontend of happy thoughts was built in the 11th week of the Technigo frontend bootcamp. The frontend fetched the happy thoughts from an existing API built by the Technigo team. In week 19 I built my own backend/API for the happy thoughts and connected it to the frontend. I also took the time to rework the frontend a bit, since I had learned alot more at this point and added some fun functionalities such as the emoji picker and hashtags. It was really fun and educating to work on an "old" project and improve it.',
+    lang: [
+      'HTML', 'CSS', 'React', 'Node.js'
+    ],
+    url: 'https://github.com/sandra-wallen/project-happy-thoughts',
+    site: 'https://sandras-happythoughts.netlify.app/',
+    className: 'project-three',
+    id: 3
+  },
+  {
     img: './pictures/react-movies.png',
     projectTitle: 'MOVIE LIST',
     projectDescription: 'A Netflix look-alike, fetching movies from an API. Built together with Isabella Markskog.',
@@ -37,19 +63,6 @@ export const projectArray = [
     site: 'https://musing-noether-fb9258.netlify.app/',
     className: 'project-two',
     id: 2
-  },
-  {
-    img: './pictures/happy-thoughts.png',
-    projectTitle: 'HAPPY THOUGHTS',
-    projectDescription: 'A twitter-ish project built in React. Getting and posting happy thoughts.',
-    longDescription: '',
-    lang: [
-      'HTML', 'CSS', 'React'
-    ],
-    url: 'https://github.com/sandra-wallen/project-happy-thoughts',
-    site: 'https://frosty-heyrovsky-0bfc89.netlify.app/',
-    className: 'project-three',
-    id: 3
   },
   {
     img: './pictures/react-musicreleases.png',

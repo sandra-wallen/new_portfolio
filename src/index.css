@@ -192,6 +192,10 @@ p {
   cursor: pointer;
 }
 
+.project-container__url {
+  text-decoration: none;
+}
+
 .project-container-link {
   color: black;
   text-decoration: none;
@@ -214,6 +218,7 @@ p {
 
 .project-container p {
   font-size: 1.7rem;
+  color: #000000;
 }
 
 .project-container img {
