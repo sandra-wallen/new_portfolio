@@ -5,9 +5,11 @@ export const skillsCategories = [
       'JavaScript ES6',
       'React',
       'Redux',
-      'Node.js',
-      'GitHub',
+      'Node',
       'CSS 3',
+      'Scss',
+      'PHP',
+      'Laravel',
       'HTML 5'
     ],
     class: 'skills-code'
@@ -15,6 +17,7 @@ export const skillsCategories = [
   {
     heading: 'tools',
     skills: [
+      'GitHub',
       'Trello',
       'Figma',
       'Slack'
@@ -24,8 +27,7 @@ export const skillsCategories = [
   {
     heading: 'upcoming',
     skills: [
-      'Sass',
-      'PHP'
+      'Angular'
     ],
     class: 'skills-upcoming'
   }
