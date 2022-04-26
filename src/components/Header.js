@@ -29,7 +29,7 @@ const Header = () => {
         </div>
         <div className="profile-information">
           <h4>PORTFOLIO: <span className="name-bold">Sandra Melin Wallén</span></h4>
-          <h1>frontend developer</h1>
+          <h1>junior fullstack developer</h1>
         </div>
         <div className="profile-picture">
           <img src="./pictures/Sandra-profilbild.jpg" alt="Sandra" />
